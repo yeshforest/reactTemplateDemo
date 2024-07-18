@@ -12,9 +12,7 @@ const KakaoLogin = () => {
     <>
       <button style={{ padding: "0px" }}><img src={"/src/assets/kakao_login_medium_narrow.png"} onClick={handleLogin}
         alt={"kakao_login"}/></button>
-      {/*<a href="https://dev.dokbearo.kro.kr/api/auth/login/kakao">*/}
-      {/*  <img src={"/src/assets/kakao_login_medium_narrow.png"} alt={"kakao_login"}/>*/}
-      {/*</a>*/}
+
     </>
   );
 };

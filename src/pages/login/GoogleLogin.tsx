@@ -5,9 +5,6 @@ const GoogleAuthLogin = () => {
   const navigate = useNavigate();
 
   return (
-    // <a href="https://dev.dokbaro.kro.kr/api/auth/login/google">
-    //   구글 로그인
-    // </a>
     <GoogleLogin
       onSuccess={(credentialResponse:CredentialResponse) => {
         console.log(credentialResponse);
